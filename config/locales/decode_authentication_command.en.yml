@@ -1,0 +1,5 @@
+en:
+  decode_authentication_command:
+    token_invalid: Your token is invalid!
+    token_missing: Your token is missing!
+    token_expired: Your token has expired!
