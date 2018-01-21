@@ -40,6 +40,6 @@ class DecodeAuthenticationCommand < BaseCommand
   end
 
   def decoded_id
-    token_contents('user_id')
+    token_contents['user_id']
   end
 end
