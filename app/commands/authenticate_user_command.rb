@@ -27,6 +27,8 @@ class AuthenticateUserCommand < BaseCommand
   def contents
     {
       user_id: user.id,
+      email: user.email,
+      admin: user.admin,
       expiration: 24.hours.from_now.to_i
     }
   end
